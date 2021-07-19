@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F66F5E426A59FBA00E29AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F5E326A59FBA00E29AB9 /* AppDelegate.swift */; };
+		8F66F5E626A59FBA00E29AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F5E526A59FBA00E29AB9 /* SceneDelegate.swift */; };
+		8F66F5E826A59FBA00E29AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F5E726A59FBA00E29AB9 /* ViewController.swift */; };
+		8F66F5EB26A59FBA00E29AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F5E926A59FBA00E29AB9 /* Main.storyboard */; };
+		8F66F5EE26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F5EC26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodeld */; };
+		8F66F5F026A59FC000E29AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F5EF26A59FC000E29AB9 /* Assets.xcassets */; };
+		8F66F5F326A59FC000E29AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F5F126A59FC000E29AB9 /* LaunchScreen.storyboard */; };
+		8F66F5FE26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F5FD26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.swift */; };
+		8F66F60926A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F60826A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F66F5FA26A59FC000E29AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F66F5D826A59FBA00E29AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F66F5DF26A59FBA00E29AB9;
+			remoteInfo = BirdIntelligentRummageDiscoverer;
+		};
+		8F66F60526A59FC000E29AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F66F5D826A59FBA00E29AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F66F5DF26A59FBA00E29AB9;
+			remoteInfo = BirdIntelligentRummageDiscoverer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F66F5E026A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdIntelligentRummageDiscoverer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F5E326A59FBA00E29AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F66F5E526A59FBA00E29AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F66F5E726A59FBA00E29AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F66F5EA26A59FBA00E29AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F66F5ED26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdIntelligentRummageDiscoverer.xcdatamodel; sourceTree = "<group>"; };
+		8F66F5EF26A59FC000E29AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F66F5F226A59FC000E29AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F66F5F426A59FC000E29AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F66F5F926A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdIntelligentRummageDiscovererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F5FD26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdIntelligentRummageDiscovererTests.swift; sourceTree = "<group>"; };
+		8F66F5FF26A59FC000E29AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F66F60426A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdIntelligentRummageDiscovererUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F60826A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdIntelligentRummageDiscovererUITests.swift; sourceTree = "<group>"; };
+		8F66F60A26A59FC000E29AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F66F5DD26A59FBA00E29AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F5F626A59FC000E29AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F60126A59FC000E29AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F66F5D726A59FBA00E29AB9 = {
+			isa = PBXGroup;
+			children = (
+				8F66F5E226A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */,
+				8F66F5FC26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests */,
+				8F66F60726A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests */,
+				8F66F5E126A59FBA00E29AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F66F5E126A59FBA00E29AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F5E026A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.app */,
+				8F66F5F926A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.xctest */,
+				8F66F60426A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F66F5E226A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F5E326A59FBA00E29AB9 /* AppDelegate.swift */,
+				8F66F5E526A59FBA00E29AB9 /* SceneDelegate.swift */,
+				8F66F5E726A59FBA00E29AB9 /* ViewController.swift */,
+				8F66F5E926A59FBA00E29AB9 /* Main.storyboard */,
+				8F66F5EF26A59FC000E29AB9 /* Assets.xcassets */,
+				8F66F5F126A59FC000E29AB9 /* LaunchScreen.storyboard */,
+				8F66F5F426A59FC000E29AB9 /* Info.plist */,
+				8F66F5EC26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodeld */,
+			);
+			path = BirdIntelligentRummageDiscoverer;
+			sourceTree = "<group>";
+		};
+		8F66F5FC26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F5FD26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.swift */,
+				8F66F5FF26A59FC000E29AB9 /* Info.plist */,
+			);
+			path = BirdIntelligentRummageDiscovererTests;
+			sourceTree = "<group>";
+		};
+		8F66F60726A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F60826A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.swift */,
+				8F66F60A26A59FC000E29AB9 /* Info.plist */,
+			);
+			path = BirdIntelligentRummageDiscovererUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F66F5DF26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F60D26A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscoverer" */;
+			buildPhases = (
+				8F66F5DC26A59FBA00E29AB9 /* Sources */,
+				8F66F5DD26A59FBA00E29AB9 /* Frameworks */,
+				8F66F5DE26A59FBA00E29AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdIntelligentRummageDiscoverer;
+			productName = BirdIntelligentRummageDiscoverer;
+			productReference = 8F66F5E026A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F66F5F826A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F61026A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscovererTests" */;
+			buildPhases = (
+				8F66F5F526A59FC000E29AB9 /* Sources */,
+				8F66F5F626A59FC000E29AB9 /* Frameworks */,
+				8F66F5F726A59FC000E29AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F66F5FB26A59FC000E29AB9 /* PBXTargetDependency */,
+			);
+			name = BirdIntelligentRummageDiscovererTests;
+			productName = BirdIntelligentRummageDiscovererTests;
+			productReference = 8F66F5F926A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F66F60326A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F61326A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscovererUITests" */;
+			buildPhases = (
+				8F66F60026A59FC000E29AB9 /* Sources */,
+				8F66F60126A59FC000E29AB9 /* Frameworks */,
+				8F66F60226A59FC000E29AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F66F60626A59FC000E29AB9 /* PBXTargetDependency */,
+			);
+			name = BirdIntelligentRummageDiscovererUITests;
+			productName = BirdIntelligentRummageDiscovererUITests;
+			productReference = 8F66F60426A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F66F5D826A59FBA00E29AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8F66F5DF26A59FBA00E29AB9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8F66F5F826A59FC000E29AB9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8F66F5DF26A59FBA00E29AB9;
+					};
+					8F66F60326A59FC000E29AB9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8F66F5DF26A59FBA00E29AB9;
+					};
+				};
+			};
+			buildConfigurationList = 8F66F5DB26A59FBA00E29AB9 /* Build configuration list for PBXProject "BirdIntelligentRummageDiscoverer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F66F5D726A59FBA00E29AB9;
+			productRefGroup = 8F66F5E126A59FBA00E29AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F66F5DF26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */,
+				8F66F5F826A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests */,
+				8F66F60326A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F66F5DE26A59FBA00E29AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F5F326A59FC000E29AB9 /* LaunchScreen.storyboard in Resources */,
+				8F66F5F026A59FC000E29AB9 /* Assets.xcassets in Resources */,
+				8F66F5EB26A59FBA00E29AB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F5F726A59FC000E29AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F60226A59FC000E29AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F66F5DC26A59FBA00E29AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F5E826A59FBA00E29AB9 /* ViewController.swift in Sources */,
+				8F66F5EE26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodeld in Sources */,
+				8F66F5E426A59FBA00E29AB9 /* AppDelegate.swift in Sources */,
+				8F66F5E626A59FBA00E29AB9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F5F526A59FC000E29AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F5FE26A59FC000E29AB9 /* BirdIntelligentRummageDiscovererTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F60026A59FC000E29AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F60926A59FC000E29AB9 /* BirdIntelligentRummageDiscovererUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F66F5FB26A59FC000E29AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F66F5DF26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */;
+			targetProxy = 8F66F5FA26A59FC000E29AB9 /* PBXContainerItemProxy */;
+		};
+		8F66F60626A59FC000E29AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F66F5DF26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer */;
+			targetProxy = 8F66F60526A59FC000E29AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F66F5E926A59FBA00E29AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F66F5EA26A59FBA00E29AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F66F5F126A59FC000E29AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F66F5F226A59FC000E29AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F66F60B26A59FC000E29AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F66F60C26A59FC000E29AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F66F60E26A59FC000E29AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscoverer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscoverer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F66F60F26A59FC000E29AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscoverer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscoverer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F66F61126A59FC000E29AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscovererTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscovererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdIntelligentRummageDiscoverer.app/BirdIntelligentRummageDiscoverer";
+			};
+			name = Debug;
+		};
+		8F66F61226A59FC000E29AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscovererTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscovererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdIntelligentRummageDiscoverer.app/BirdIntelligentRummageDiscoverer";
+			};
+			name = Release;
+		};
+		8F66F61426A59FC000E29AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscovererUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscovererUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdIntelligentRummageDiscoverer;
+			};
+			name = Debug;
+		};
+		8F66F61526A59FC000E29AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RTANAC8X4;
+				INFOPLIST_FILE = BirdIntelligentRummageDiscovererUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kikutsuji.BirdIntelligentRummageDiscovererUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdIntelligentRummageDiscoverer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F66F5DB26A59FBA00E29AB9 /* Build configuration list for PBXProject "BirdIntelligentRummageDiscoverer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F60B26A59FC000E29AB9 /* Debug */,
+				8F66F60C26A59FC000E29AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F60D26A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscoverer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F60E26A59FC000E29AB9 /* Debug */,
+				8F66F60F26A59FC000E29AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F61026A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscovererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F61126A59FC000E29AB9 /* Debug */,
+				8F66F61226A59FC000E29AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F61326A59FC000E29AB9 /* Build configuration list for PBXNativeTarget "BirdIntelligentRummageDiscovererUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F61426A59FC000E29AB9 /* Debug */,
+				8F66F61526A59FC000E29AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F66F5EC26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F66F5ED26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodel */,
+			);
+			currentVersion = 8F66F5ED26A59FBA00E29AB9 /* BirdIntelligentRummageDiscoverer.xcdatamodel */;
+			path = BirdIntelligentRummageDiscoverer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F66F5D826A59FBA00E29AB9 /* Project object */;
+}
